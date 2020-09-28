@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background:linear-gradient(57deg  , yellow , orange, purple);
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+li{
+float: left;
+border-right: 2px solid rebeccapurple;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px 24px;
+}
+
+a:hover{
+    background-color: coral;
+}

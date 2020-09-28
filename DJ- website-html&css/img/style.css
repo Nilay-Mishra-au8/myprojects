@@ -1,0 +1,292 @@
+/* Css Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+/* Css variable */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+
+#navbar{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+   
+}
+
+
+/*     Navigation Bar:  Logo and Image */
+
+#logo{
+    margin: -26px 22px;
+}
+
+#logo img{
+    height: 120px;
+    margin: 28px 4px;
+    width: 170px;
+}
+
+/*  Navigation Bar: List styling */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Lobster', cursive;
+   
+}
+
+
+
+
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+   
+}
+
+#navbar ul li a{
+    color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+ 
+}
+
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background:url(./34455.jpg) no-repeat center center/cover;
+    top:0px;
+    left:0px;
+    height: 642px;
+
+    width: 100%;
+    z-index: -1;
+  
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+/* Services Section */
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background:linear-gradient(57deg , wheat, pink);
+}
+
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    
+}
+
+#services .box p{
+    font-family: 'Lobster', cursive;
+}
+
+
+/* Clients section */
+
+#client-section{
+  
+  position: relative;
+  
+}
+
+
+#client-section::before{
+content: "";
+position: absolute;
+background: url('./dj-blue-twin-decks-music.jpg');
+width: 100%;
+height: 100%;
+z-index: -1;
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 92px;
+}
+
+#clients img{
+    height: 124px;
+    opacity: 0.8;
+}
+
+/* contact section */
+
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  
+    background: url(./anime-dj-girl-wide.jpg) no-repeat center center/cover;
+
+
+}
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px ;
+    
+}
+
+#contact-box input,
+#contact-box textarea{
+     
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.2rem;
+
+}
+
+#contact-box form{
+    width: 20%;
+}
+
+#contact-box label{
+  font-size: 1.3rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utiility  class */
+
+.h-primary {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.8rem;
+    padding: 62px;
+    margin: 20px;
+    color: white;
+
+    
+}
+
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background:linear-gradient(57deg , purple , yellow);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(57deg, yellow , purple);
+    
+}
+
+.center{
+    text-align: center;
+   
+
+}
+
+.services-container::before{
+    content: "";
+    position: absolute;
+    background: url('./party-night-club-disc-dj-entertainment-with-edm-dance-music-mixer-players-with-lighting-e_29393-198.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+    
+}
+

@@ -1,0 +1,113 @@
+  /* CSS reset */
+  body {
+    font-family: 'Lobster', cursive;
+
+    margin: 0px;
+    padding: 0px;
+    background: url(./pexels-photo-3253500.jpeg);
+    color: white;
+    
+  }
+
+.left {
+    display: inline-block;
+
+    left: 60px;
+    top: 20px;
+    position: absolute;
+}
+
+.left img {
+    width: 50px;
+    filter: invert(100%);
+
+}
+
+.left div {
+    line-height: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+
+}
+
+.right {
+    display: inline-block;
+
+    right: 34px;
+    top: 20px;
+    position: absolute;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 13px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 109px 61px;
+    padding: 72px 72px;
+    width: 35%;
+    border-radius: 23px;
+}
+
+.form-group input {
+    font-family: 'Lobster', cursive;
+    ;
+    text-align: center;
+    display: block;
+    width: 290px;
+    padding: 6px;
+    border: 5px solid black;
+    margin: 6px auto;
+    font-size: 18px;
+    border-radius: 65px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 110px;
+    margin: auto;
+}
