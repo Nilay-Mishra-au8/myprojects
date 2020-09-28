@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 100px 100px;
+    grid-template-columns: auto auto auto ;
+    background:linear-gradient(57deg,   purple,   yellow,   pink);
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+  }
+  .grid-container div{
+    font-size: smaller;
+  }
+  .footer{
+    margin-left : 80px;
+    font-size : 18px;
+  }
+  
