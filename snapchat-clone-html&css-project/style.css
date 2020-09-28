@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: white;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li{
+    margin: 0 20px
+}
+.logo-text{
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #f05136;
+}
+#bio img{ 
+    width: 25px;
+    height: 25px;
+    border-radius: 15%;
+    margin: 15px;}
+
+#home{
+    background: yellow;
+}
+
+#home div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 100px;
+    align-items: center;
+}
+
+.img{
+    align-items: center;
+}
+#portfolio{
+  
+    background-color:yellow;
+    
+}
+#portfolio h1{
+    height: 212px;
+    width: 112px;
+}
+#portfolio, 
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#portfolio, p, hr {
+    margin-bottom: 140px;
+}
+#portfolio div article{
+   color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#link-buttons {
+  text-decoration: none;
+  text-align: center;
+  background:whitesmoke ;
+  cursor: pointer;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color:black;
+  font-size: 1.8em;
+  padding: 8px;
+  border-radius: 30%;
+  border-color: black;
+}
+.link-button:hover{
+    color: white;
+}
+
+#portfolio div article p {
+    padding: 0 5px;
+}
+
+#portfolio div article img {
+    height: 250px;
+    width: 250px;
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#skills-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills ul{
+    list-style: none;
+}
+#skills ul li{
+    margin: 30px  0;
+}
+
+#black {
+    background: black;
+    margin:auto;
+    padding: 15px;
+}
+
+nav h2{
+    color: white;
+}
